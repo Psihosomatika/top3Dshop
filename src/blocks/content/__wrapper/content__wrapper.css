@@ -1,0 +1,9 @@
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__wrapper_center{
+  align-items: center;
+  padding-bottom: 50px;
+}

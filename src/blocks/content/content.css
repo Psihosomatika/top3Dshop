@@ -1,0 +1,16 @@
+@import url(../content/__img/content__img.css);
+@import url(../content/__wrapper/content__wrapper.css);
+@import url(../content/__title/content__title.css);
+@import url(../content/__button/content__button.css);
+@import url(../content/__text/content__text.css);
+@import url(../content/__band/content__band.css);
+@import url(../content/__icon/content__icon.css);
+
+.content {
+  width: calc(100% - 300px);
+  padding: 40px 150px 30px 150px;
+  margin: auto;
+  font-family: 'SFProDisplay';
+  font-style:  normal;
+  font-weight: 400;
+}

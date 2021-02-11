@@ -1,0 +1,13 @@
+@import url(../video/__wrapper/video__wrapper.css);
+@import url(../video/__iframe/video__iframe.css);
+@import url(../video/__title/video__title.css);
+@import url(../video/__button/video__button.css);
+@import url(../video/__icon/video__icon.css);
+@import url(../video/__rotate-box/video__rotate-box.css);
+
+.video {
+  background-color: #f9f9f9;
+  padding: 70px 137px 60px 137px;
+  width: calc(100% - 370px);
+
+}

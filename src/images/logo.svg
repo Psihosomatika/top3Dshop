@@ -19,4 +19,13 @@
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="basket">
     <path d="M7.822 15.77A1.993 1.993 0 009.667 17h7.639c.828 0 1.581-.521 1.873-1.297l2.757-7.352A1.001 1.001 0 0021 7H6.333l-1.41-3.385A1 1 0 004 3H2v2h1.333l4.489 10.77zM19.557 9l-2.25 6h-7.64l-2.5-6h12.39zM10.5 22a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm5.938 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10" id="arrowrigth">
+    <path d="M1 9l4-4-4-4"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 19" id="leftarr">
+    <path d="M10 1L1 9.5l9 8.5" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 19" id="rigtharr">
+    <path d="M1 18l9-8.5L1 1" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
 </svg>
