@@ -1,0 +1,11 @@
+.header__wrapper {
+  height: 32px;
+  background-color: #fed600;
+  padding-right: 120px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 600;
+}

@@ -1,0 +1,29 @@
+@import url(../header/__wrapper/header__wrapper.css);
+@import url(../header/__contact/header__contact.css);
+@import url(../header/__item/header__item.css);
+@import url(../header/__soctial/header__social.css);
+@import url(../header/__icon/header__icon.css);
+@import url(../header/__button/header__button.css);
+@import url(../header/__button-icon/header__button-icon.css);
+@import url(../header/__content/header__content.css);
+@import url(../header/__active/header__active.css);
+@import url(../header/__logo/header__logo.css);
+@import url(../header/__logo-text/header__logo-text.css);
+@import url(../header/__logo-img/header__logo-img.css);
+@import url(../header/__yandex/header__yandex.css);
+@import url(../header/__form/header__form.css);
+@import url(../header/__form-container/header__form-container.css);
+@import url(../header/__form-item/header__form-item.css);
+@import url(../header/__form-button/header__form-button.css);
+@import url(../header/__inlet/header__inlet.css);
+@import url(../header/__inlet-icon/header__inlet-icon.css);
+@import url(../header/__inlet-text/header__inlet-text.css);
+@import url(../header/__basket/header__basket.css);
+@import url(../header/__basket-icon/header__basket-icon.css);
+@import url(../header/__nav/header__nav.css);
+@import url(../header/__nav-text/header__nav-text.css);
+@import url(../header/__products/header__products.css);
+
+.header {
+  padding-top: 12px;
+}

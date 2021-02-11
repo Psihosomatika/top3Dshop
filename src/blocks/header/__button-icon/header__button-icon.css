@@ -1,0 +1,9 @@
+.header__button-icon {
+  width: 10px;
+  height: 5px;
+  fill: #222;
+}
+
+.header__button-icon_gray {
+  fill: #bdbdbd;
+}

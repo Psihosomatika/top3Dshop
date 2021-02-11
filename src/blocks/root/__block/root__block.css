@@ -1,0 +1,6 @@
+.root__block {
+  width: calc(100% - 240px);
+  margin: auto;
+  max-width: 1200px;
+  min-width: 320px;
+}

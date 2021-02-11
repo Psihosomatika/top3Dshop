@@ -1,0 +1,6 @@
+.header__basket {
+  background-color: #d2001c;
+  border-radius: 4px;
+  display: flex;
+  padding: 9px 16px 9px 18px;
+}

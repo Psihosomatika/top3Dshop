@@ -1,0 +1,13 @@
+.header__form-button {
+  background-color: transparent;
+  border: 2px solid #d2001c;
+  border-radius: 4px;
+  color: #d2001c;
+  font-size: 13px;
+  line-height: 18px;
+  position: absolute;
+  top: 12px;
+  right: 4px;
+  width: 75px;
+  height: 36px;
+}

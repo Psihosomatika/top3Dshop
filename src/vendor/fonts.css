@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/OpenSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("./fonts/OpenSans-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 600;
+  src: url("./fonts/OpenSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("./fonts/OpenSans-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/SFProDisplay-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("./fonts/SFProDisplay-Thin.woff") format("woff");
+}

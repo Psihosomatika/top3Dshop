@@ -1,0 +1,11 @@
+.header__logo-text {
+  font-style:  italic;
+  margin-left: 16px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.header__logo-text_bright {
+  color: #d2001c;
+  margin-left: 0;
+}
