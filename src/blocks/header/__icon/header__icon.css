@@ -13,3 +13,18 @@
 .header__icon_scype {
   margin-left: 15px;
 }
+@media screen and (max-width: 1060px) {
+  .header__icon {
+    margin-left: 6px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .header__icon_telegram {
+    margin-left: 4px;
+  }
+
+  .header__icon_scype {
+    margin-left: 5px;
+  }
+}

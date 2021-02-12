@@ -4,3 +4,15 @@
   max-width: 1200px;
   min-width: 320px;
 }
+
+@media screen and (max-width: 1300px) {
+  .root__block {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .root__block {
+    width: calc(100% - 4px);
+  }
+}

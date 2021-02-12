@@ -10,3 +10,10 @@
 .header__button-icon_gray {
   fill: #bdbdbd;
 }
+
+@media screen and (max-width: 1060px) {
+  .header__button-icon {
+    width: 7px;
+    height: 4px;
+  }
+}

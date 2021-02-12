@@ -6,3 +6,17 @@
   position: relative;
   top: -4px;
 }
+
+@media screen and (max-width: 1060px) {
+  .header__basket-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__basket-icon {
+    width: 18px;
+    height: 18px;
+  }
+}

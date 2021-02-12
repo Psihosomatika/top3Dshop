@@ -8,3 +8,20 @@
   padding: 5px 12px;
   background-position: center;
 }
+
+@media screen and (max-width: 1300px) {
+  .header__yandex{
+
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .header__yandex{
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__content {
+
+  }
+}

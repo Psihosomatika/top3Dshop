@@ -12,3 +12,17 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1060px) {
+  .header__inlet {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__inlet {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

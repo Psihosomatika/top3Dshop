@@ -5,8 +5,11 @@
   min-width: 320px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1060px) {
   .root__section {
-    width: 90%;
+    width: 98%;
+    margin: auto;
+    max-width: 1536px;
+    min-width: 320px;
   }
 }

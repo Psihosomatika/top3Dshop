@@ -12,3 +12,19 @@
   height: 36px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 1060px) {
+  .header__form-button {
+    font-size: 10px;
+    line-height: 15px;
+    top: 9px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__form-button {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

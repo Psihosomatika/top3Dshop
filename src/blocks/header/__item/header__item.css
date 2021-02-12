@@ -22,3 +22,10 @@
 .header__item_not-link {
   cursor: default;
 }
+
+@media screen and (max-width: 1060px) {
+  .header__item {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
