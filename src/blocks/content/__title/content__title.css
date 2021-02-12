@@ -2,8 +2,9 @@
   font-size: 27px;
   line-height: 32px;
   font-weight: 400;
-  padding: 0 0 40px 0;
+  padding: 17px 0 40px 0;
   margin: 0;
+  max-width: 333px;
 }
 
 .content__title_min {

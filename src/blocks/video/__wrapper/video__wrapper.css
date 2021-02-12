@@ -1,4 +1,5 @@
 .video__wrapper {
   display: flex;
   justify-content: space-between;
+  background-color: #f9f9f9;
 }

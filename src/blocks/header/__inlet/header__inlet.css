@@ -5,4 +5,10 @@
   border: none;
   color: #222;
   font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 600;
+  cursor: pointer;
 }

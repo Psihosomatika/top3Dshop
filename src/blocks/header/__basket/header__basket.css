@@ -2,5 +2,14 @@
   background-color: #d2001c;
   border-radius: 4px;
   display: flex;
-  padding: 9px 16px 9px 18px;
+  padding: 7px 13px 3px 13px;
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 600;
+  color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
 }

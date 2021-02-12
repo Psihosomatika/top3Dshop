@@ -2,6 +2,14 @@
   fill: #000;
   width: 17px;
   height: 17px;
-  margin-left: 19px;
+  margin-left: 18px;
   list-style-type: none;
+}
+
+.header__icon_telegram {
+  margin-left: 12px;
+}
+
+.header__icon_scype {
+  margin-left: 15px;
 }

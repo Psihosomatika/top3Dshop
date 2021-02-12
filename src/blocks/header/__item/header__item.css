@@ -3,6 +3,10 @@
   line-height: 18px;
   margin-left: 20px;
   font-weight: 600;
+  font-family: 'OpenSans';
+  font-style:  normal;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .header__item_link {
@@ -13,4 +17,8 @@
 
 .header__item:first-child {
   margin-left: 0;
+}
+
+.header__item_not-link {
+  cursor: default;
 }

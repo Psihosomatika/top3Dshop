@@ -3,4 +3,6 @@
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }

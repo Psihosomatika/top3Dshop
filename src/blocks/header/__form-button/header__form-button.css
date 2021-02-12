@@ -6,8 +6,9 @@
   font-size: 13px;
   line-height: 18px;
   position: absolute;
-  top: 12px;
-  right: 4px;
+  top: 10px;
+  right: 0px;
   width: 75px;
   height: 36px;
+  cursor: pointer;
 }

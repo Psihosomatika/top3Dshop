@@ -1,7 +1,10 @@
 .header__button-icon {
   width: 10px;
-  height: 5px;
+  height: 6px;
   fill: #222;
+  position: relative;
+  top:-2px;
+  cursor: pointer;
 }
 
 .header__button-icon_gray {

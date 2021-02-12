@@ -3,15 +3,20 @@
   font-size: 16px;
   color: #4d4d4d;
   line-height: 19px;
+  margin-top: 20px;
 }
 
 .content__text_pale {
   font-size: 14px;
   color: #c4c4c4;
   line-height: 17px;
-  padding-top: 20px;
+  padding-top: 0px;
+  max-width: 280px;
 }
 
 .content__text_bright {
+  padding: 2px;
   color: #d2001c;
 }
+
+
