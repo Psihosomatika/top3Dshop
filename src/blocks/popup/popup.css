@@ -1,0 +1,23 @@
+@import url(./__item/popup__item.css);
+
+.popup {
+  max-width: 700px;
+  min-width: 290px;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  top: -17px;
+  left: 0;
+  font-family: 'OpenSans';
+  font-style:  italic;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-left: 0;
+  /*display: flex;*/
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  display: none;
+  /*overflow: scroll;*/
+}

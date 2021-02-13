@@ -6,3 +6,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .header__nav-text {
+    font-size: 10px;
+    line-height: 13px;
+  }
+}

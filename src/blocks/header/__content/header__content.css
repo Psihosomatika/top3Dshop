@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 768px) {
   .header__content {
-
+    padding-right: 2px;
+    padding-left: 2px;
   }
 }

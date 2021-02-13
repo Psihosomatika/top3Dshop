@@ -2,3 +2,20 @@
   max-width: 521px;
   min-width: 350px;
 }
+
+.header__form_smatr-version {
+  display: none;
+  width: 100%;
+  max-width: 768px;
+  min-width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__form {
+    display: none;
+  }
+
+  .header__form_smatr-version {
+    display: block;
+  }
+}

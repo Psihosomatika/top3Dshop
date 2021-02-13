@@ -21,8 +21,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header__inlet {
+  .header__inlet{
+    display: none;
+  }
+
+  .header__inlet_smatr-version {
     font-size: 10px;
     line-height: 15px;
+    display: flex;
   }
 }

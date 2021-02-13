@@ -12,7 +12,10 @@
   line-height: 18px;
   text-align: center;
   position: relative;
-  cursor: pointer;
+}
+
+.header__basket_smatr-version{
+  display: none;
 }
 
 @media screen and (max-width: 1060px) {
@@ -22,9 +25,21 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .header__basket {
-    font-size: 10px;
-    line-height: 15px;
+    display: none;
   }
+  .header__basket_smatr-version {
+    display: inline;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.header__basket_disabled {
+  display: none;
+}
 }

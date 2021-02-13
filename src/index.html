@@ -25,7 +25,7 @@
             <li class="header__item"><a class="header__item header__item_link link" href="tel:+78126135838">+7 (812) 613-58-38</a></li>
             <li class="header__item header__item_not-link">Пн–пт 10:00–19:00, сб-вс 10:00–17:00</li>
           </ul>
-          <ul class="header__contact">
+          <ul class="header__contact header__contact_smart-version">
             <li class="header__item"><a class="header__item header__item_link link" href="mailto:partner@top3dgroup.com">Напишите нам</a></li>
             <li class="header__item"><a class="header__item header__item_link link" href="mailto:partner@top3dgroup.com">Свяжитесь с директором</a></li>
             <li class="header__item">
@@ -47,14 +47,33 @@
             </li>
           </ul>
         </div>
-<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         <div class="header__content root__block">
           <div class="header__active">
+            <div class="header__menu">
+              <div class="header__menu-item"></div>
+              <div class="header__menu-item"></div>
+              <div class="header__menu-item"></div>
+            </div>
             <div class="header__logo">
               <img src="./images/logotype.png" alt="логотип компании top 3D shop" class="header__logo-img">
               <p class="header__logo-text">Ваш эксперт <br>на рынке <span class="header__logo-text header__logo-text_bright">3D</span>-техники</p>
             </div>
-            <div class="header__yandex"></div>
+                        <!--БЛОК ДЛЯ 768-->
+            <div class="header__block">
+              <button class="header__inlet header__inlet_smatr-version link">
+                <svg class="header__inlet-icon">
+                  <use xlink:href="images/logo.svg#inlet"></use>
+                </svg>
+                Войти
+              </button>
+              <button class="header__basket header__basket_smatr-version link">
+                <svg class="header__basket-icon header__basket-icon_smatr-version">
+                  <use xlink:href="images/logo.svg#basket"></use>
+                </svg>
+              </button>
+            </div>
+
+            <a href="https://market.yandex.ru/shop--top-3d-shop-vash-ekspert-na-rynke-3d-tekhniki/239950/reviews" class="header__yandex"></a>
             <form class="header__form">
               <fieldset class="header__form-container">
                 <input type="text" class="header__form-item" placeholder="Введите запрос, например, Formlabs Form 2">
@@ -73,109 +92,121 @@
               </svg>
               Корзина пуста
             </button>
+            <button class="header__basket header__basket_smatr-version header__basket_disabled">
+              <svg class="header__basket-icon header__basket-icon_smatr-version">
+                <use xlink:href="images/logo.svg#basket"></use>
+              </svg>
+            </button>
           </div>
-          <!--
-          <nav class="header__nav">
-            <a href="#" class="header__nav-text link">Акции</a>
-            <a href="#" class="header__nav-text link">О нас</a>
-            <a href="#" class="header__nav-text link">Мероприятия</a>
-            <a href="#" class="header__nav-text link">Оплата и доставка</a>
-            <a href="#" class="header__nav-text link">Что с моим заказом?</a>
-            <a href="#" class="header__nav-text link">Гос.закупки</a>
-            <a href="#" class="header__nav-text link">Блог</a>
-            <a href="#" class="header__nav-text link">Мастер-классы</a>
-            <a href="#" class="header__nav-text link">Контакты</a>
-          </nav>
-          -->
+          <form class="header__form header__form_smatr-version">
+            <fieldset class="header__form-container header__form-container_smatr-version">
+              <input type="text" class="header__form-item header__form-item_smatr-version" placeholder="Введите запрос, например, Formlabs Form 2">
+              <button class="header__form-button  header__form-button_smatr-version link">Найти</button>
+            </fieldset>
+          </form>
+          <div class="header__nav-wrapper">
+              <nav class="header__nav">
+                <a href="#" class="header__nav-text link">Акции</a>
+                <a href="#" class="header__nav-text link">О нас</a>
+                <a href="#" class="header__nav-text link">Мероприятия</a>
+                <a href="#" class="header__nav-text link">Оплата и доставка</a>
+                <a href="#" class="header__nav-text link">Что с моим заказом?</a>
+                <a href="#" class="header__nav-text link">Гос.закупки</a>
+                <a href="#" class="header__nav-text link">Блог</a>
+                <a href="#" class="header__nav-text link">Мастер-классы</a>
+                <a href="#" class="header__nav-text link">Контакты</a>
+              </nav>
+            </div>
+          </div>
+          <div class="header__nav-wrapper">
+            <div class="header__products root__block">
+              <div class="header__item link">3D-принтеры
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">3D-сканеры
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Станки
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Роботы
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Образование
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Стоматологам
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Гаджеты
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Материалы
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">ПО
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Решения
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Учебный центр
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="header__item link">Услуги
+                <button class="header__button">
+                  <svg class="header__button-icon header__button-icon_gray">
+                    <use xlink:href="images/logo.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <!--
-        <div class="header__products root__block">
-          <div class="header__item link">3D-принтеры
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">3D-сканеры
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Станки
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Роботы
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Образование
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Стоматологам
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Гаджеты
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Материалы
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">ПО
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Решения
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Учебный центр
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="header__item link">Услуги
-            <button class="header__button">
-              <svg class="header__button-icon header__button-icon_gray">
-                <use xlink:href="images/logo.svg#arrow"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
-        -->
       </div>
     </header>
     <!--
@@ -237,6 +268,11 @@
         <iframe class="video__iframe" src="https://www.youtube.com/embed/SOYBsly_yN8" allowfullscreen></iframe>
       </div>
     </div>-->
+    <ul class="popup">
+      <li class="popup__item"><a class="header__item header__item_link link" href="mailto:partner@top3dgroup.com">Напишите нам</a></li>
+      <li class="popup__item"><a class="header__item header__item_link link" href="mailto:partner@top3dgroup.com">Свяжитесь с директором</a></li>
+      <li class="popup__item"><a class="header__item header__item_link link" href="https://market.yandex.ru/shop--top-3d-shop-vash-ekspert-na-rynke-3d-tekhniki/239950/reviews">Читайте отзывы о нас на Яндекс.Маркет</a></li>
+    </ul>
     <!--
     <footer class="footer root__section">
       <div class="footer__wrapper root__block">

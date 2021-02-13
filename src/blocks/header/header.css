@@ -24,6 +24,10 @@
 @import url(../header/__nav/header__nav.css);
 @import url(../header/__nav-text/header__nav-text.css);
 @import url(../header/__products/header__products.css);
+@import url(../header/__menu/header__menu.css);
+@import url(../header/__menu-item/header__menu-item.css);
+@import url(../header/__block/header__block.css);
+@import url(../header/__nav-wrapper/header__nav-wrapper.css);
 
 
 .header {

@@ -2,3 +2,10 @@
   position: relative;
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  .header__form-container {
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,7 +1,16 @@
 .header__products {
   height: 30px;
   background-color: #fff;
-  padding: 25px 120px 12px 120px;
+  padding: 25px 0 12px 0;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .header__products {
+    padding: 0;
+    width: 760px;
+    font-size: 10px;
+  }
 }

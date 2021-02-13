@@ -3,3 +3,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    width: 760px;
+    font-size: 10px;
+  }
+}

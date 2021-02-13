@@ -3,3 +3,16 @@
   justify-content: space-between;
   width: 213px;
 }
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    width: 159px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 159px;
+    justify-content: flex-start;
+  }
+}

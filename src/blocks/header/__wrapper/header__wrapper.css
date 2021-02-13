@@ -1,5 +1,6 @@
 .header__wrapper {
   height: 32px;
+  min-width: 316px;
   background-color: #fed600;
   padding-right: 120px;
   padding-left: 120px;
@@ -26,6 +27,6 @@
 
 @media screen and (max-width: 768px) {
   .header__wrapper {
-    display: none;
+    flex-direction: column;
   }
 }
