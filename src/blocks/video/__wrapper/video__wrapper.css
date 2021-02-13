@@ -2,4 +2,25 @@
   display: flex;
   justify-content: space-between;
   background-color: #f9f9f9;
+  margin-left: 9%;
+  margin-right: 9%;
 }
+
+@media screen and (max-width: 1060px) {
+  .video__wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .video__wrapper_smatr-version {
+    flex-direction: column;
+  }
+}
+

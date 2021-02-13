@@ -1,9 +1,11 @@
 @import url(./__item/popup__item.css);
+@import url(./__button/popup__button.css);
+@import url(./__icon/popup__icon.css);
 
 .popup {
-  max-width: 700px;
+  max-width: 768px;
   min-width: 290px;
-  width: 100vw;
+  width: 99%;
   height: 100%;
   position: absolute;
   background-color: #fff;
@@ -16,8 +18,12 @@
   padding-left: 0;
   /*display: flex;*/
   flex-direction: column;
-  align-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   display: none;
   /*overflow: scroll;*/
+}
+
+.popup_open {
+  display: flex;
 }

@@ -7,3 +7,21 @@
   cursor: pointer;
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  .content__button {
+    width: 150px;
+    height: 34px;
+    font-size: 12px;
+    margin-top: 17px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content__button {
+    width: 100%;
+    height: 34px;
+    font-size: 12px;
+    margin-top: 0;
+  }
+}

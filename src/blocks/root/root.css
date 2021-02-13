@@ -10,10 +10,6 @@
   /*padding-bottom: 194px;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 105px;
 }
-/*
-@media screen and (max-width: 1024px) {
-  .root {
-    padding-bottom: 140px;
-  }
-}*/
+

@@ -8,5 +8,8 @@
   .header__nav {
     width: 760px;
     font-size: 10px;
+    padding-top: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }

@@ -1,0 +1,10 @@
+.content__resume {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .content__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

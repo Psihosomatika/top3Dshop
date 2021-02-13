@@ -7,7 +7,17 @@
 
 .video {
   background-color: #f9f9f9;
-  padding: 70px 137px 60px 137px;
-  width: calc(100% - 370px);
+  padding: 70px 10px 60px 10px;
+}
 
+@media screen and (max-width: 1060px) {
+  .video {
+    padding: 40px 10px 60px 10px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .video {
+    padding: 20px 10px 30px 10px;
+  }
 }
