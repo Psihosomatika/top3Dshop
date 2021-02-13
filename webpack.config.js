@@ -22,7 +22,7 @@ module.exports = {
             test: /\.css$/i,
             use: [
                 (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                'css-loader', 
+                'css-loader',
                 'postcss-loader'
                 ]
             },
@@ -42,10 +42,10 @@ module.exports = {
                 loader: 'file-loader?name=./fonts/[name].[ext]',
             },
             }
-            
+
         ]
     },
-    plugins: [ 
+    plugins: [
         new MiniCssExtractPlugin({
             filename: 'index.[contenthash].css',
           }),

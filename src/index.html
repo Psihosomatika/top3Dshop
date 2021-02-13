@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mesto</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <!--<%=htmlWebpackPlugin.files.chunks.main.css %>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <!--./pages/index.css <%=htmlWebpackPlugin.files.chunks.main.css %>
   "<%= htmlWebpackPlugin.files.chunks.main.entry %>"-->
 </head>
 <body>
@@ -18,7 +18,7 @@
             <li class="header__item link">Санкт-Петербург
               <button class="header__button">
                 <svg class="header__button-icon">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </li>
@@ -31,17 +31,17 @@
             <li class="header__item">
               <a rel="stylesheet" href="https://tglink.ru/top_3d_shop_bot" class="header__social link">
                 <svg class="header__icon header__icon_telegram">
-                  <use xlink:href="images/logo.svg#telegram"></use>
+                  <use xlink:href="./images/logo.svg#telegram"></use>
                 </svg>
               </a>
               <a rel="stylesheet" href="#" class="header__social link">
                 <svg class="header__icon header__icon_scype">
-                  <use xlink:href="images/logo.svg#scype"></use>
+                  <use xlink:href="./images/logo.svg#scype"></use>
                 </svg>
               </a>
               <a rel="stylesheet" href="tel:+78126135838" class="header__social link">
                 <svg class="header__icon">
-                  <use xlink:href="images/logo.svg#phone"></use>
+                  <use xlink:href="./images/logo.svg#phone"></use>
                 </svg>
               </a>
             </li>
@@ -58,17 +58,17 @@
               <img src="./images/logotype.png" alt="логотип компании top 3D shop" class="header__logo-img">
               <p class="header__logo-text">Ваш эксперт <br>на рынке <span class="header__logo-text header__logo-text_bright">3D</span>-техники</p>
             </div>
-                        <!--БЛОК ДЛЯ 768-->
+                        <!--src="<%=require('./images/logotype.png').default%>"БЛОК ДЛЯ 768-->
             <div class="header__block">
               <button class="header__inlet header__inlet_smatr-version link">
                 <svg class="header__inlet-icon">
-                  <use xlink:href="images/logo.svg#inlet"></use>
+                  <use xlink:href="./images/logo.svg#inlet"></use>
                 </svg>
                 Войти
               </button>
               <button class="header__basket header__basket_smatr-version link">
                 <svg class="header__basket-icon header__basket-icon_smatr-version">
-                  <use xlink:href="images/logo.svg#basket"></use>
+                  <use xlink:href="./images/logo.svg#basket"></use>
                 </svg>
               </button>
             </div>
@@ -82,19 +82,19 @@
             </form>
             <button class="header__inlet link">
               <svg class="header__inlet-icon">
-                <use xlink:href="images/logo.svg#inlet"></use>
+                <use xlink:href="./images/logo.svg#inlet"></use>
               </svg>
               Войти
             </button>
             <button class="header__basket link">
               <svg class="header__basket-icon">
-                <use xlink:href="images/logo.svg#basket"></use>
+                <use xlink:href="./images/logo.svg#basket"></use>
               </svg>
               Корзина пуста
             </button>
             <button class="header__basket header__basket_smatr-version header__basket_disabled">
               <svg class="header__basket-icon header__basket-icon_smatr-version">
-                <use xlink:href="images/logo.svg#basket"></use>
+                <use xlink:href="./images/logo.svg#basket"></use>
               </svg>
             </button>
           </div>
@@ -123,84 +123,84 @@
             <div class="header__item header__item_smatr-version link">3D-принтеры
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">3D-сканеры
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Станки
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Роботы
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Образование
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Стоматологам
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Гаджеты
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Материалы
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">ПО
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Решения
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Учебный центр
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
             <div class="header__item header__item_smatr-version link">Услуги
               <button class="header__button">
                 <svg class="header__button-icon header__button-icon_gray">
-                  <use xlink:href="images/logo.svg#arrow"></use>
+                  <use xlink:href="./images/logo.svg#arrow"></use>
                 </svg>
               </button>
             </div>
@@ -210,8 +210,8 @@
     </header>
 
     <div class="content">
-      <img src="./images/photo.jpg" alt="коллектив" class="content__img">
 
+      <img src="<%=require('./images/photo.jpg').default%>" alt="коллектив" class="content__img">
       <div class="content__wrapper">
         <div class="content__resume">
           <div class="content__resume-box">
@@ -238,17 +238,17 @@
       <div class="content__wrapper content__wrapper_flex">
         <a href="https://top3dshop.ru/blog/kak-ustroena-iznutri-krupnejshaja-3d-kompanija-top-3d-shop.html" class="content__text content__text_bright link">Как устроена наша компания изнутри
           <svg class="content__icon content__icon_red">
-            <use xlink:href="images/logo.svg#arrowrigth"></use>
+            <use xlink:href="./images/logo.svg#arrowrigth"></use>
           </svg>
         </a>
         <a href="https://top3dshop.ru/blog/kak-ja-postroil-uspeshnyj-biznes-v-sfere-3d-pechati-bez-znanij-i-opyta.html" class="content__text link">Как создавалась компания - необычная история
           <svg class="content__icon">
-            <use xlink:href="images/logo.svg#arrowrigth"></use>
+            <use xlink:href="./images/logo.svg#arrowrigth"></use>
           </svg>
         </a>
         <a href="https://3dtoday.ru/" class="content__text link">Читайте о нас на 3D Today
           <svg class="content__icon">
-            <use xlink:href="images/logo.svg#arrowrigth"></use>
+            <use xlink:href="./images/logo.svg#arrowrigth"></use>
           </svg>
         </a>
       </div>
@@ -260,12 +260,12 @@
         <div class="video__rotate-box">
           <button class="video__button">
             <svg class="video__icon">
-              <use xlink:href="images/logo.svg#leftarr"></use>
+              <use xlink:href="./images/logo.svg#leftarr"></use>
             </svg>
           </button>
           <button class="video__button">
             <svg class="video__icon">
-              <use xlink:href="images/logo.svg#rigtharr"></use>
+              <use xlink:href="./images/logo.svg#rigtharr"></use>
             </svg>
           </button>
         </div>
@@ -278,7 +278,7 @@
     <ul class="popup">
       <button class="popup__button">
         <svg class="popup__icon">
-          <use xlink:href="images/logo.svg#close"></use>
+          <use xlink:href="./images/logo.svg#close"></use>
         </svg>
       </button>
       <li class="popup__item"><a class="header__item header__item_link link" href="mailto:partner@top3dgroup.com">Напишите нам</a></li>
@@ -294,8 +294,8 @@
       <li class="popup__item"><a href="#" class="header__item header__item_link link">Мастер-классы</a></li>
       <li class="popup__item"><a href="#" class="header__item header__item_link link">Контакты</a></li>
     </ul>
-    <!--type="module"-->
   </div>
-  <script src="./index.js"></script>
+  <!--./index.js"-->
+  <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-//import "./pages/index.css";
+import "./pages/index.css";
 
 const menu =  document.querySelector('.header__menu');
 const popup = document.querySelector('.popup');
