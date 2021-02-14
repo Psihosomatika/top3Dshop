@@ -1,5 +1,5 @@
 {
-  "name": "projectmesto",
+  "name": "top3Dshop",
   "version": "0.0.1",
   "description": "",
   "main": "script.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Psihosomatika/ProjectMesto.git"
+    "url": "git+https://github.com/Psihosomatika/top3Dshop"
   },
   "author": "Diana Rukavishnikova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Psihosomatika/ProjectMesto/issues"
+    "url": "https://github.com/Psihosomatika/top3Dshop/issues"
   },
-  "homepage": "https://psihosomatika.github.io/ProjectMesto/",
+  "homepage": "https://psihosomatika.github.io/top3Dshop/",
   "devDependencies": {
     "@babel/cli": "^7.12.16",
     "@babel/core": "^7.8.7",
