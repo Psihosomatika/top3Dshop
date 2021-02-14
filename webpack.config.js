@@ -27,12 +27,15 @@ module.exports = {
                 ]
             },
             {
-            test: /\.(png|jpg|gif|ico|svg)$/,
+            test: /\.(png|jpg|gif|ico|svg)$/i,
             use: [
                 'file-loader?name=./images/[name].[ext]', // указали папку, куда складывать изображения
                 {
                     loader: 'image-webpack-loader',
-                    options: {}
+                    options: {
+                      bypassOnDebug: true, // webpack@1.x
+                      disable: true, // webpack@2.x and newer
+                    }
                 },
             ],
             },

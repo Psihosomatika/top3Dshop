@@ -1,6 +1,8 @@
 .content__img {
   width: 100%;
   min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 @media screen and (max-width: 340px) {

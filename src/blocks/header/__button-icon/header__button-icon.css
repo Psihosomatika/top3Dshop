@@ -5,6 +5,7 @@
   position: relative;
   top:-2px;
   cursor: pointer;
+  background-image: url('../../../images/arrowdown.svg');
 }
 
 .header__button-icon_gray {
