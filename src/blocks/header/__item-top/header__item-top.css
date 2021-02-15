@@ -1,4 +1,4 @@
-.header__item {
+.header__item-top {
   font-size: 13px;
   line-height: 18px;
   margin-left: 0;
@@ -6,20 +6,7 @@
   font-family: 'OpenSans';
   font-style:  normal;
   font-weight: 700;
-}
-
-.header__item_link {
-  text-decoration: none;
-  margin-left: 0;
-  color: #000;
-}
-
-.header__item:first-child {
-  margin-left: 0;
-}
-
-.header__item_not-link {
-  cursor: default;
+  padding-left: 10px;
 }
 
 
@@ -31,20 +18,17 @@
 }
 
 @media screen and (max-width: 1060px) {
-  .header__item {
+  .header__item-top {
     font-size: 9px;
     line-height: 15px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__item {
+  .header__item-top {
     font-size: 9px;
     line-height: 15px;
     margin: 0;
-  }
-  .header__item_not-link {
-    max-width: 136px;
   }
 }
 

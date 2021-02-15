@@ -5,7 +5,6 @@
   position: relative;
   top:-2px;
   cursor: pointer;
-  background-image: url('../../../images/arrowdown.svg');
 }
 
 .header__button-icon_gray {
@@ -14,7 +13,6 @@
 
 @media screen and (max-width: 1060px) {
   .header__button-icon {
-    width: 7px;
-    height: 4px;
+    top:0;
   }
 }

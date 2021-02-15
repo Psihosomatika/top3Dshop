@@ -1,7 +1,7 @@
 .root__block {
   width: calc(100% - 240px);
   margin: auto;
-  max-width: 1200px;
+  max-width: 1440px;
   min-width: 320px;
   background-color: #fff;
 }

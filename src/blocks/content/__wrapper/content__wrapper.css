@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding-top: 17px;
-  max-width: 1000px;
-  margin: auto;
+  max-width: 1234px;
+  width: 100%;
 }
 
 .content__wrapper_center{
