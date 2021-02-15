@@ -8,6 +8,7 @@
 }
 
 
+
 @media screen and (max-width: 1060px) {
   .header__basket-icon {
     width: 18px;
@@ -22,5 +23,8 @@
     fill: #d2001c;
     margin: 0;
     top: 0;
+  }
+  .header__basket-icon {
+
   }
 }
